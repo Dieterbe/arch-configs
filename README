@@ -1,0 +1,10 @@
+== The goal of this program compared to all others ==
+ * KISS (don't do more than needed); configurability only where it makes sense
+ * Efficiency and best practices (use specialized tools like vimdiff, pacnew_scripts, and automate actions where possible)
+ * Code quality & error handling (this is obvious, but worth mentioning if you've seen some of the other scripts around)
+
+== Thoughts ==
+ * If you have a bunch of changes in the config, everytime the same package gets updated, you get a .pacnew file and you must go over the same diffs again.
+   -> Ucreate patchfiles? (or use git? maybe make a different branch in which you copy your /etc, but .pacnew files. then you can leverage git's merging algo's)
+   -> Maybe something for pacnew_scripts?
+
