@@ -11,7 +11,6 @@
 # - creates /etc/<foo>.merged files from pacnew_scripts (if found) (but should clean them up)
 
 source /usr/lib/libui.sh
-libui_sh_init
 
 
 search_method=find
