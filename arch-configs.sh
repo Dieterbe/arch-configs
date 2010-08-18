@@ -216,6 +216,7 @@ interactive_handler () {
 	if find_pacnew_helper "$old"
 	then
 		echo "Helper $helper is available. running it.."
+		$helper "$old" -c
 		$helper "$old" > "$old".merged
 		interactive_handle_two "$old" "$old".merged
 		if [ -e "$old".merged ] && ! rm "$old".merged
