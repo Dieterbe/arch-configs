@@ -1,7 +1,6 @@
 #!/bin/bash
 # Written by Dieter Plaetinck
 # License: GPLv3
-# dependencies: locate (optional), vimdiff, libui-sh, pacnew_scripts (optional)
 
 # TODO
 # 'cancel' labels in ask_option now mean 'skip', libui.sh's ask_option should return >0 even when you allow skipping

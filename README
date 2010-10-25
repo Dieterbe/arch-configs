@@ -11,3 +11,9 @@
 == Caveats ==
  * merge_pacnew_mirrorlist will prune mirrorlist entries which it finds in mirrorlist but not in mirrorlist.pacnew, this helps to automatically get rid of mirrors which no longer exist.
    If you use unofficial mirrrors and you don't want to readd them with vimdiff everytime you update the mirrorlist file, include them through a separate mirrorlist file. (or in pacman.conf directly)
+
+== Dependencies ==
+ * libui-sh
+ * vimdiff
+ * locate (optional)
+ * pacnew_scripts (optional)
